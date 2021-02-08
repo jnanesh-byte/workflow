@@ -9,6 +9,7 @@ jobs:
       - name: echo a string 
         run: echo "hellow world"
       - name: dish and memory
+        run: |
           free -h
           df -h
       - name: multiple script
