@@ -8,7 +8,7 @@ jobs:
     steps: 
       - name: echo a string 
         run: echo "hellow world"
-      - name: dish and memory
+      - name: disk and memory
         run: |
           free -h
           df -h
