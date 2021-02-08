@@ -8,6 +8,9 @@ jobs:
     steps: 
       - name: echo a string 
         run: echo "hellow world"
+      - name: dish and memory
+          free -h
+          df -h
       - name: multiple script
         run: |
           node -v
