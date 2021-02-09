@@ -16,3 +16,7 @@ jobs:
         run: |
           node -v
           npm -v 
+      - name: day2 work
+        run: | 
+          lsb_release -a 
+          ps -aux
