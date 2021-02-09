@@ -8,7 +8,7 @@ jobs:
     steps: 
       - name: Simple JS Action 
         uses: actions/hello-world-javascript-action@v1
-      with:
+        with:
         who-to-greet: jnan
       - name: Log Greeting Time
         run: echo "{{steps.greet.outputs.timegit }}"
